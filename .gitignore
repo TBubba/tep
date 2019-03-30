@@ -1,0 +1,13 @@
+# Node/NPM
+node_modules
+npm-debug.log.*
+package-lock.json
+
+# Visual Studio Code
+/.vscode
+
+# Dist
+/dist
+
+# Examples Dist
+/dist-examples

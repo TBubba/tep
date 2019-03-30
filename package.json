@@ -1,0 +1,32 @@
+{
+  "name": "tep",
+  "version": "0.0.1",
+  "description": "(Task Executing Processes)",
+  "keywords": [
+    "task",
+    "manager",
+    "process",
+    "thread",
+    "execute"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.js",
+  "files": [
+    "./dist/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "prepublish": "npm run build",
+    "build:examples": "tsc -p ./examples",
+    "example:demo": "npm run build:examples && node ./dist-examples/examples/demo"
+  },
+  "author": "Jesper Gustafsson <JesperGustafssons@gmail.com> (https://bigbub.net)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^11.11.6",
+    "node-ts": "^5.0.0",
+    "typescript": "^3.3.4000"
+  },
+  "dependencies": {}
+}

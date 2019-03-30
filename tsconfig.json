@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "module": "none",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "target": "es6",
+    "sourceMap": true,
+    "lib": ["es6"],
+    "typeRoots" : ["./typings", "./node_modules/@types/"],
+    "declaration": true,
+    "outDir": "dist",
+    "strict": true
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
